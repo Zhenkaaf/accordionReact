@@ -11,7 +11,7 @@ const Accordion = () => {
         },
         {
             id: 2,
-            question: 'What question would you like to ask?',
+            question: 'What question would you like to ask? Long question',
             answer: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam nam deleniti officiis doloremque itaque placeat earum, quis eos pariatur quas, eius ipsam laborum ea quo a maiores quibusdam ratione!'
         },
         {
