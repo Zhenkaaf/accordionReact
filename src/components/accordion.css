@@ -1,0 +1,61 @@
+.wrapper {
+    height: 100vh;
+    background-color: bisque;
+}
+.container {
+    padding: 50px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.accordion__title {
+    text-align: center;
+}
+.item {
+   /*  margin-bottom: 20px; */
+}
+.item__question {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+}
+.item__btn {
+   
+}
+.item__minus {
+    border-radius: 5px;
+    width: 20px;
+    height: 4px;
+    background-color: black;
+    display: block;
+}
+.item__minus:after {
+    content: '';
+    border-radius: 5px;
+    height: 20px;
+    width: 4px;
+    position: relative;
+    top: -8px;
+    left: 8px;
+    background-color: black;
+    display: block;
+    transition: all .7s ease;
+}
+.item__plus:after {
+    transform: scale(1,0);
+}
+.item__answer {
+    
+}
+.inactiveAnswer {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .3s ease;
+    margin: 0;
+    padding: 0px 10px;
+    border-bottom: 1px solid black;
+}
+.activeAnswer {
+     max-height: 150px; /* depending on answer length */
+     padding-bottom: 5px;
+}
