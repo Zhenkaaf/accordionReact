@@ -19,10 +19,10 @@
     justify-content: space-between;
     padding: 0px 10px;
     align-items: center;
+    cursor: pointer;
 }
 .item__question h3 {
     margin-right: 20px;
-    cursor: pointer;
 }
 .item__btn {
    
